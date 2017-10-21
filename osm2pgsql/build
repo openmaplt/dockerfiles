@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker build --squash --tag openmap/osm2pgsql:latest .
+
